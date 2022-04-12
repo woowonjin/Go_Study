@@ -34,6 +34,7 @@ import "fmt"
 
 func main() {
 	numbers := []int{2, 4, 6, 8, 10, 11, 14}
+	// var numbers []int = []int{2, 4, 6, 8, 10, 11, 14}
 	for _, num := range numbers {
 		if num % 2 == 0 {
 			fmt.Println(num)
