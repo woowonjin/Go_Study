@@ -13,5 +13,5 @@ func main() {
 	defer fmt.Println("Hello, Go!")
 
 	panic("PANIC")
-	fmt.Println("Here")
+	fmt.Println("Here") // -> 실행되지 않음
 }
